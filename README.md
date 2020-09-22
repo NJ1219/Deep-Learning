@@ -46,10 +46,12 @@ Finally, use the testing data to evaluate each model and the performance was com
 
 Using the above the following observations were made:
 
-> Which model has a lower loss? The LSTM model using the closing prices has lower loss.
+> Which model has a lower loss? 
+    The LSTM model using the closing prices has lower loss.
 >
 > Which model tracks the actual values better over time?
->
-> Which window size works best for the model?
+  The model using the closing price tracks the values a lot better based off the plot
 
+> Which window size works best for the model?
+  It was observed that the window size of 10 works the best
 - - -
